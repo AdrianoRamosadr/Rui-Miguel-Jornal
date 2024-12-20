@@ -57,6 +57,8 @@ nav ul li a:hover::after{
   width: 100%;
 }
 
+
+
 main {
   padding: 1rem 5%;
 }
@@ -79,18 +81,35 @@ section h1, section h2 {
   gap: 1rem;
 }
 
+.imagens{
+   background-color: #02080e2c;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 4px;
+}
+
 article {
- background-color:#213a57 ;
+  background-color: #052d5579;
   padding: 1rem;
-  border-radius: 8px;
+ 
   
   border-bottom:2px solid #fff;
   color: #fff;
+  display: flex;
 }
 
 article img {
-  max-width: 100%;
-  border-radius: 8px;
+width: 250px;
+  
+}
+
+article p{
+  margin-left: 14px;
+ 
+ padding: 3px;
+
 }
 
 footer {
